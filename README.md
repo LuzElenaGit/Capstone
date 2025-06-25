@@ -25,7 +25,9 @@ Transforms text into numeric features.
  - Whether certain keywords exist (e.g.“free”, “win”, "prize")
 
 ### 3. Model Selection: 
-The one I selected was Logistic Regression, but there are other ones that will probably be used such as Naive Bayes, Support Vector Machine (SVM), Random Forest / Decision Trees, Gradient Boosting.
+The one I selected was Logistic Regression, but there are other ones that could probably be used such as Naive Bayes, Support Vector Machine (SVM), Random Forest / Decision Trees, Gradient Boosting.
+Logistic Regression seems to handle sparse feature vectors efficiently, doesn’t require heavy resources or deep architectures for solid performance. It is fast to Train and Predict and it is lightweight and computationally efficient.
+
 
 ### 4. Model Evaluation: 
 Assessing performance through Confusion Matrix, Precision, Recall, F1-Score
