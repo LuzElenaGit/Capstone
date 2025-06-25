@@ -3,6 +3,8 @@
 Research Question:
 How can a machine learning algorithm be effectively utilized to classify and filter spam emails from legitimate messages, and what features contribute most significantly to accurate classification?
 
+The focus of the project will be on evaluating the model’s ability to correctly classify emails into “spam” or “not spam”. These results will be measured using the performance metrics previously mentioned.
+
 Data Source:
 https://www.kaggle.com/datasets/purusinghvi/email-spam-classification-dataset
 
@@ -30,9 +32,8 @@ Logistic Regression seems to handle sparse feature vectors efficiently, doesn’
 
 
 ### 4. Model Evaluation: 
-Assessing performance through Confusion Matrix, Precision, Recall, F1-Score
-
-The focus of the project will be on evaluating the model’s ability to correctly classify emails into “spam” or “not spam”. These results will be measured using the performance metrics previously mentioned.
+Assessing performance through Confusion Matrix, Precision, Recall, F1-Score, we can tell that the model is performing very well, with an overall accuracy of 97%, which means that 97% of emails were correctly classified as either class 0 or 1. Also, it performs equally well for both classes, which is especially important in spam detection, where false positives (good emails marked as spam) can be disruptive.
+Nearly identical precision and recall demonstrates that there is no significant bias toward either class.
 
 
 ## Why this question is important
